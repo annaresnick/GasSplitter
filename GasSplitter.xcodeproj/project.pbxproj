@@ -12,6 +12,13 @@
 		0086731D1ED4EC5000D2118B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0086731B1ED4EC5000D2118B /* Main.storyboard */; };
 		0086731F1ED4EC5000D2118B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0086731E1ED4EC5000D2118B /* Assets.xcassets */; };
 		008673221ED4EC5000D2118B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008673201ED4EC5000D2118B /* LaunchScreen.storyboard */; };
+		0086732A1ED4EDFA00D2118B /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 008673291ED4EDFA00D2118B /* images.jpeg */; };
+		0086732C1ED4EF3900D2118B /* driveback1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0086732B1ED4EF3900D2118B /* driveback1.jpeg */; };
+		0086732E1ED4EF4300D2118B /* drivebackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0086732D1ED4EF4300D2118B /* drivebackground.jpg */; };
+		008673301ED4F04C00D2118B /* back1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0086732F1ED4F04C00D2118B /* back1.jpeg */; };
+		008673321ED4F05800D2118B /* back2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 008673311ED4F05800D2118B /* back2.jpeg */; };
+		0093229F1EE11261009FDE4B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0093229E1EE11261009FDE4B /* CoreLocation.framework */; };
+		8E382C00286D75FD317C3628 /* libPods-GasSplitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 678D9EFCCF0260AEC59C02E5 /* libPods-GasSplitter.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,15 @@
 		0086731E1ED4EC5000D2118B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		008673211ED4EC5000D2118B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		008673231ED4EC5000D2118B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008673291ED4EDFA00D2118B /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = ../../images.jpeg; sourceTree = "<group>"; };
+		0086732B1ED4EF3900D2118B /* driveback1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = driveback1.jpeg; path = ../../driveback1.jpeg; sourceTree = "<group>"; };
+		0086732D1ED4EF4300D2118B /* drivebackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = drivebackground.jpg; path = ../../drivebackground.jpg; sourceTree = "<group>"; };
+		0086732F1ED4F04C00D2118B /* back1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = back1.jpeg; path = ../../back1.jpeg; sourceTree = "<group>"; };
+		008673311ED4F05800D2118B /* back2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = back2.jpeg; path = ../../back2.jpeg; sourceTree = "<group>"; };
+		0093229E1EE11261009FDE4B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0D01C35DCF0C6EA368D8C9E1 /* Pods-GasSplitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasSplitter.release.xcconfig"; path = "Pods/Target Support Files/Pods-GasSplitter/Pods-GasSplitter.release.xcconfig"; sourceTree = "<group>"; };
+		678D9EFCCF0260AEC59C02E5 /* libPods-GasSplitter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GasSplitter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1A413B9DD7D9203C27D50E /* Pods-GasSplitter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasSplitter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GasSplitter/Pods-GasSplitter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0093229F1EE11261009FDE4B /* CoreLocation.framework in Frameworks */,
+				8E382C00286D75FD317C3628 /* libPods-GasSplitter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +58,8 @@
 			children = (
 				008673161ED4EC5000D2118B /* GasSplitter */,
 				008673151ED4EC5000D2118B /* Products */,
+				0093229D1EE11261009FDE4B /* Frameworks */,
+				62DDE852A01E7D0C06F385A2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +76,35 @@
 			children = (
 				008673171ED4EC5000D2118B /* AppDelegate.swift */,
 				008673191ED4EC5000D2118B /* ViewController.swift */,
+				008673311ED4F05800D2118B /* back2.jpeg */,
+				008673291ED4EDFA00D2118B /* images.jpeg */,
+				0086732D1ED4EF4300D2118B /* drivebackground.jpg */,
+				0086732F1ED4F04C00D2118B /* back1.jpeg */,
+				0086732B1ED4EF3900D2118B /* driveback1.jpeg */,
 				0086731B1ED4EC5000D2118B /* Main.storyboard */,
 				0086731E1ED4EC5000D2118B /* Assets.xcassets */,
 				008673201ED4EC5000D2118B /* LaunchScreen.storyboard */,
 				008673231ED4EC5000D2118B /* Info.plist */,
 			);
 			path = GasSplitter;
+			sourceTree = "<group>";
+		};
+		0093229D1EE11261009FDE4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0093229E1EE11261009FDE4B /* CoreLocation.framework */,
+				678D9EFCCF0260AEC59C02E5 /* libPods-GasSplitter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62DDE852A01E7D0C06F385A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A413B9DD7D9203C27D50E /* Pods-GasSplitter.debug.xcconfig */,
+				0D01C35DCF0C6EA368D8C9E1 /* Pods-GasSplitter.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 008673261ED4EC5000D2118B /* Build configuration list for PBXNativeTarget "GasSplitter" */;
 			buildPhases = (
+				9914BA67AC92B1191CC1EF60 /* [CP] Check Pods Manifest.lock */,
 				008673101ED4EC5000D2118B /* Sources */,
 				008673111ED4EC5000D2118B /* Frameworks */,
 				008673121ED4EC5000D2118B /* Resources */,
+				466A089EE62DD0628D9C13E4 /* [CP] Embed Pods Frameworks */,
+				B540E35D357CA5655EC87996 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,13 +169,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0086732C1ED4EF3900D2118B /* driveback1.jpeg in Resources */,
+				008673321ED4F05800D2118B /* back2.jpeg in Resources */,
 				008673221ED4EC5000D2118B /* LaunchScreen.storyboard in Resources */,
+				0086732E1ED4EF4300D2118B /* drivebackground.jpg in Resources */,
+				0086732A1ED4EDFA00D2118B /* images.jpeg in Resources */,
 				0086731F1ED4EC5000D2118B /* Assets.xcassets in Resources */,
+				008673301ED4F04C00D2118B /* back1.jpeg in Resources */,
 				0086731D1ED4EC5000D2118B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		466A089EE62DD0628D9C13E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GasSplitter/Pods-GasSplitter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9914BA67AC92B1191CC1EF60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B540E35D357CA5655EC87996 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GasSplitter/Pods-GasSplitter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		008673101ED4EC5000D2118B /* Sources */ = {
@@ -256,6 +355,7 @@
 		};
 		008673271ED4EC5000D2118B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1A413B9DD7D9203C27D50E /* Pods-GasSplitter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GasSplitter/Info.plist;
@@ -268,6 +368,7 @@
 		};
 		008673281ED4EC5000D2118B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D01C35DCF0C6EA368D8C9E1 /* Pods-GasSplitter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GasSplitter/Info.plist;
@@ -297,6 +398,7 @@
 				008673281ED4EC5000D2118B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
